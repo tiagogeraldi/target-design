@@ -1,0 +1,70 @@
+body                { padding: 0; width: 100%; margin: 0; width: 100%; background: url(assets/body-bg.png); font-size: 12px; font-family: 'Open Sans', sans-serif; }
+
+.clear              { clear: both; }
+.xleft              { float: left; }
+.xright             { float: right; }
+a                   { text-decoration: none; }
+li                  { list-style: none }
+
+.radius             { -webkit-border-radius: 4px;  -moz-border-radius: 4px; border-radius: 4px; border: 1px solid #d4d6d8;}
+.radius2             { -webkit-border-radius: 2px;  -moz-border-radius: 2px; border-radius: 2px;}
+
+h2                  { font-size: 22px; color: #999a9b; text-align: center; margin-top: -23px; font-weight: normal;}
+
+.line               { width: 100%; height: 9px; background: url(assets/hr.png) no-repeat; margin-top: 45px; }
+
+.container          { width: 612px; margin: 0 auto; background: #fff;}
+
+.user               { position: relative; z-index: 9999;  opacity: 1; color: #fff;}
+
+.red-bg             { background: rgba(218, 26, 50, 0.6);
+                      width: 100%;
+                      position: relative;
+                    }
+
+#retangule          { height: 278px; margin-top: -285px; text-align: center;}
+
+#triangle           { background: url(assets/triangle-bg.png); width: 100%; height: 84px; position:relative; z-index: 100; margin: -84px 0 0 0;}
+
+.user               { width: 100%; opacity: 1; text-align: center;}
+.user .avatar img   { margin-top: 40px; }
+.user .username     { font-size: 16px; }
+.user .username img { margin: 0 5px -2px 0; }
+.user p             { width: 325px; margin: 0 auto; margin-top: 10px;}
+
+#logo               { margin: -77px 0 0 227px; position: relative; z-index: 100;}
+
+.content            { color: #797a7c; padding-top: 5px; margin-top: 0px; text-align: center;}
+.content p          { line-height: 30px; padding: 0px 80px; font-size: 12px;}
+
+.intros .target     { color: #95a5a6; font-size: 16px; font-family: 'Open Sans', sans-serif;
+                      text-align: center; width: 67px; margin: 0 auto; margin-top: 18px;}
+.intros .target img { margin-bottom: -3px; }
+
+.usage              { background: #f7f5f5; }
+.age                { background: #ebe9e9; }
+.contact            { background: #dcdbdb; }
+
+#date-select        { margin: 0 auto; }
+#date-select select { padding: 5px; height: 30px; background: #fff; }
+
+.contact .inputs    { margin-bottom: 10px; }
+.contact input      { height: 30px; padding: 0 5px;}
+.contact .first-name{ margin-right: 10px; }
+.contact .medium    { width: 162px; }
+.contact .large     { width: 350px; }
+
+#contact-bottom     { background: url(assets/contact-bottom.png); height: 14px;}
+
+.division           { height: 105px; width: 100%; margin-top: -12px;}
+#division1          { background: url(assets/division1.png); }
+#division2          { background: url(assets/division2.png); }
+#division3          { background: url(assets/division3.png); }
+
+.footer             { background: #f7f7f7; border-top: 1px solid #c2c1c2; height: 140px;}
+.footer label       { color: #828284; }
+.footer .check      { padding: 5px; border: 2px solid #cacaca; margin-right: 5px;}
+.footer-content     { width: 350px; margin: 0 auto; margin-top: 25px;}
+.footer .link       { display: block; text-size: 16px; width: 168px; height: 40px; line-height: 40px;
+                      color: #fff; font-weight: bold; background: #bdc3c7; text-align: center; margin-top: 15px;}
+.footer .submit     { margin: 15px 10px 0 0; background: #00bce4; border: none;}
