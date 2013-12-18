@@ -76,3 +76,8 @@ h2                  { font-size: 22px; color: #999a9b; text-align: center; margi
 .footer .link       { display: block; text-size: 16px; width: 168px; height: 40px; line-height: 40px;
                       color: #fff; font-weight: bold; background: #bdc3c7; text-align: center; margin-top: 15px;}
 .footer .submit     { margin: 15px 10px 0 0; background: #00bce4; border: none;}
+
+.footer #signin     { width: 280px; text-align: center; margin: 0 auto; }
+.footer .instagram  { background: url(assets/instagram-blue.png) no-repeat #00bce2; width: 200px; margin: 0 auto;
+                      background-position: 5% 50%; font-size: 14px; font-weight: normal; padding-left: 30px; }
+.footer p           { color: #6e6f71; }
