@@ -48,7 +48,13 @@ h2                  { font-size: 22px; color: #999a9b; text-align: center; margi
 .contact            { background: #dcdbdb; }
 
 #date-select        { margin: 0 auto; }
-#date-select select { padding: 5px; height: 30px; background: #fff; }
+#date-select select { -webkit-appearance: none; -moz-appearance: none; appearance: none; text-indent: 0.01px;
+                      text-overflow: ''; color: #34363a;
+                      padding: 5px; height: 30px; background: url(assets/select-arrow.png) no-repeat right #fff;}
+
+#date-select .day   { width: 90px; }
+#date-select .year  { width: 100px; }
+#date-select .month { width: 125px; }
 
 .contact .inputs    { margin-bottom: 10px; }
 .contact input      { height: 30px; padding: 0 5px;}
